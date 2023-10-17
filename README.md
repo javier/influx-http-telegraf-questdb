@@ -10,7 +10,7 @@
   telegraf --config telegraf_influx_to_questdb.conf
 ```
 
-3. Run this JAVA example. It should write one row using a data point, one using the ILP protocol, and one via a POJO. Demo data will be written into a new `temperature` table in your questdb server. You can run it via
+3. (See [Python folder](./python) if you prefer Python). Run this JAVA example. It should write one row using a data point, one using the ILP protocol, and one via a POJO. Demo data will be written into a new `temperature` table in your questdb server. You can run it via
 ```shell
 mvn compile exec:java -Dexec.mainClass=example.InfluxDB2Example
 ```
