@@ -21,4 +21,8 @@ python insert_via_python.py
 ```
 
 4. After a few moments you should see your data into questdb. Connect to your questdb instance (defaults to `http://localhost:9000`) and run this query `SELECT * from my_measurement`. One row should appear.
+![image](https://github.com/javier/influx-http-telegraf-questdb/assets/3839/afeb1fc3-e3a1-42a8-acb8-f355686b0ee0)
+
+
+   
 
